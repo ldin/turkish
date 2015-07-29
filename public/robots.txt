@@ -1,5 +1,7 @@
 User-Agent: *
 
+Disallow:/
+
 Disallow: /admin
 Disallow: /password
 Disallow: /auth
@@ -7,6 +9,8 @@ Disallow: /user
 
 
 User-Agent: Yandex
+
+Disallow:/
 
 Disallow: /admin
 Disallow: /password

@@ -1,6 +1,6 @@
 @extends('home.layout')
 
-@section('title') Электромонтаж в загородных домах Москвы и Московской области @stop
+@section('title') «Совет Консалтинг» oрганизация и сопровождение бизнеса в турции @stop
 
 @section('content')
 
@@ -129,11 +129,11 @@
                 <p class="title">если вы хотите</p>
                 <div class="txt">
                     <p>А тут идет какой-то длинный текст</p>
-                </div>  
+                </div>
                 <div class="txt-center block-btn">
                     <a href="#" class="btn btn-form">Оставить заявку</a>
                 </div>
-            </div>  
+            </div>
         </section>
 
         <section id="we-need" class="light">
@@ -147,24 +147,24 @@
                                 <p class="col-xs-8">инвестировать</p>
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-invest-ico.png">
-                                </div>  
+                                </div>
                             </div>
                             <div class="description">
                                 <p class="col-xs-8">
                                 Мы можем подобрать для вас прибыльный проект для инвестиций с выдачей паспорта <b>инвестора</b>
-                                </p>    
+                                </p>
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-invest-ico-hover.png">
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div class="col-sm-6 col-xs-12">
                         <div class="block block-hover block-left">
                             <div class="title txt-big">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-baybusinest-ico.png" >
-                                </div>  
+                                </div>
                                 <p class="col-xs-8">открыть или купить бизнес</p>
                             </div>
                             <div class="description">
@@ -173,10 +173,10 @@
                                 </div>
                                 <p class="col-xs-8">
                                 Мы можем помочь вам завести собственный бизнес в рамках особых условий Турецкой экономики
-                                </p>    
+                                </p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
 
                     <div class="col-sm-6 col-xs-12">
                         <div class="block block-hover block-right">
@@ -184,36 +184,36 @@
                                 <p class="col-xs-8">развить существующий бизнес</p>
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-openbusines-ico.png" >
-                                </div>  
+                                </div>
                             </div>
                             <div class="description">
                                 <p class="col-xs-8">
                                 Если у вас уже есть бизнес в Турции, мы готовы предложить свои услуги для его развития
                                 </p>
-                                <div class="img-circle col-xs-4">   
+                                <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-openbusines-ico-hover.png">
-                                </div>                              
+                                </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div class="col-sm-6 col-xs-12">
                         <div class="block block-hover block-left">
                             <div class="title txt-big">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-expand-ico.png" >
-                                </div>  
+                                </div>
                                 <p class="col-xs-8">расширить рынки сбыта</p>
                             </div>
                             <div class="description">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-expand-ico-hover.png">
-                                </div>  
+                                </div>
                                 <p class="col-xs-8">
                                 Если вас интересуют расширения рынков, мы поможем внедрится со своим товаром/услугой на рынок Турции
-                                </p>    
+                                </p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
 
 
 
@@ -233,7 +233,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="block block-hover">
                             <div class="title">
-                                <p class="txt-big">15-ЛЕТНИЙ<br> ОПЫТ РАБОТЫ</p> 
+                                <p class="txt-big">15-ЛЕТНИЙ<br> ОПЫТ РАБОТЫ</p>
                             </div>
                             <div class="description">
                                 <p>
@@ -271,13 +271,13 @@
                             <div class="title">
                                 <p class="txt-big">ОБШИРНЫЕ <br>ДЕЛОВЫЕ СВЯЗИ<br></p>
                             </div>
-                            <div class="description desc-smile">                                
+                            <div class="description desc-smile">
                             </div>
                         </div>
                     </div>
 
                 </div>
-            </div>  
+            </div>
         </section>
         <section id="description">
             <div class="container">
@@ -296,8 +296,8 @@
 Мы обеспечиваем доступ в прибыльные сферы турецкой экономики, комфортные условия существования вашего бизнеса и гарантии юридической чистоты.
                         </p>
                     <p><b>Мы бережно относимся к своей репутации, поэтому можем это гарантировать.</b></p>
-                    </div>                  
-                </div>              
+                    </div>
+                </div>
 <!--                <div class="row block-text">
                     <div class="col-sm-4 col-xs-12">
                         <p>
@@ -327,7 +327,7 @@
                     <div class="col-xs-12 col-sm-8 col-sm-offset-2">
                         <h3 class="text-center">«Завод под ключ»</h3>
                         <div>
-<!-- 
+<!--
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
   <div class="carousel-inner" role="listbox">
@@ -338,7 +338,7 @@
         <div class="col-xs-6">
             <p>
  Следствие: бесконечно малая величина осмысленно нейтрализует график функции многих переменных. Аффинное преобразование не критично. Используя таблицу интегралов элементарных функций, получим: асимптота вырождена. Комплексное число, следовательно, уравновешивает комплексный двойной интеграл. Максимум охватывает линейно зависимый интеграл от функции, обращающейся в бесконечность вдоль линии, что неудивительно. Аксиома соответствует натуральный логарифм.
-            </p>  
+            </p>
         </div>
 
     </div>
@@ -349,7 +349,7 @@
         <div class="col-xs-6">
             <p>
             Поэтому теорема Гаусса - Остроградского проецирует изоморфный интеграл по бесконечной области. Матожидание необходимо и достаточно. Дивергенция векторного поля, как следует из вышесказанного, определяет экспериментальный функциональный анализ. Стоит отметить, что скачок функции упорядочивает двойной интеграл. Дивергенция векторного поля масштабирует постулат.
-            </p>    
+            </p>
         </div>
 
     </div>
@@ -360,7 +360,7 @@
         <div class="col-xs-6">
             <p>
 Интересно отметить, что иррациональное число притягивает интеграл Фурье. Частная производная детерменирована. Натуральный логарифм, исключая очевидный случай, синхронизирует график функции многих переменных, что несомненно приведет нас к истине. Тройной интеграл является следствием. Итак, ясно, что связное множество нейтрализует интеграл от функции, обращающейся в бесконечность в изолированной точке.
-            </p>  
+            </p>
         </div>
 
     </div>
@@ -380,7 +380,7 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>   -->                        
+</div>   -->
                         </div>
                     </div>
 
@@ -401,12 +401,12 @@
                         <li><img src="/img/partner/12.png" height="113px" width="200px" alt=""/></li>
                         <li><img src="/img/partner/13.png" height="113px" width="180px" alt=""/></li>
                         <li><img src="/img/partner/15.png" height="113px" width="166px" alt=""/></li>
-                    </ul>                   
+                    </ul>
                 </div>
                 <hr>
                 <button class="prev">prev</button>
-                <button class="next">next</button>  
-                        
+                <button class="next">next</button>
+
             </div>
         </section>
 
@@ -432,7 +432,7 @@
                         <input type="textarea" name="text" class="form-control" id="inputQuestion" placeholder="Ваш вопрос">
                       </div>
                       <div class="form-group">
-                
+
                     <button type="submit" class="btn btn-default">Оставить заявку</button>
                     </div>
                 </div>
