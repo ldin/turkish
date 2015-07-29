@@ -21,7 +21,9 @@
         <div class="container top-block">
             <div class="row">
                 <div class=" col-lg-5 col-xs-12 col-sm-4">
+                    <a href="/">
                     <img src="/img/sovet-logo.png" alt="sovet-logo">
+                    </a>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12 phone text-right">
                     <p class="red">горячая линия: <a href="tel:+905414086107">+90 541 408 6107</a></p>
@@ -32,7 +34,7 @@
                     <p>E-MAIL: <span class="small"><a href="mail:info@infoturk.biz">info@infoturk.biz</a></span></p>
                     <p>Skype: <span class="small"> infoturk-1, sovet-1</span></p>
                 </div>
-                            
+
             </div>
         </div>
         <nav class="navbar">
@@ -51,7 +53,7 @@
             <div class="collapse navbar-collapse text-center" id="navbar-main-menu">
                 <div class="inline-navbar">
                     <ul class="nav navbar-nav">
-                        <li {{ (Request::is('/')) ? 'class="active"' : '' }}><a href="/">О нас <span class="sr-only">(current)</span></a></li>
+                        <li {{ (Request::is('/')) ? 'class="active"' : '' }}><a href="/">Главная <span class="sr-only">(current)</span></a></li>
 
                         @if(isset($type_page))
                             @foreach($type_page as$type=>$page)
@@ -60,7 +62,7 @@
                         @endif
 
                   </ul>
-                </div>  
+                </div>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
@@ -123,7 +125,7 @@
                                         <input type="textarea" name="text" class="form-control" id="inputQuestion" placeholder="Ваш вопрос">
                                       </div>
                                       <div class="form-group">
-                                
+
                                     <button type="submit" class="btn btn-default">Оставить заявку</button>
                                     </div>
                                 </div>
