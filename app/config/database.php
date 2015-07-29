@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'ceteguxh_electro',
-			'username'  => 'ceteguxh_electro',
-			'password'  => '@nM45#tJ',
+			'database'  => 'bizness-turcia',
+			'username'  => 'bizness-turcia',
+			'password'  => 'o36k33E85XoT0e64',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
