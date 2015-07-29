@@ -21,8 +21,8 @@
 html, body{ font-family: SegoeUi, Arial, Helvetica, sans-serif }
 html{position: relative; min-height: 100%; }
 
-body { margin: 0 0 400px; }
-footer { position: absolute; bottom: 0; min-height: 400px; width: 100%;}
+/*body { margin: 0 0 400px; }*/
+/*footer { position: absolute; bottom: 0; min-height: 400px; width: 100%;}*/
 
 
 .left{float: left;}
@@ -56,7 +56,7 @@ hr.h2-line{background: url('/img/line.png') no-repeat top center; height: 10px; 
 
 .btn-form{ background: #dd4f4d; color: #fff;}
 .btn-form:hover{background: #bc0900; color: #fff;}
- 
+
 /*main-page*/
 #slider img, #we-service img, #unique-offer img{max-width: 100%;}
 
@@ -96,7 +96,7 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 #we-service .block-4{background-image: url('/img/service/pers.png'); background-color: #e8e8e8;}
 #we-service .block-5{background-image: url('/img/service/buhg.png');}
 #we-service .block-6{background-image: url('/img/service/pr.png'); background-color: #e8e8e8;}
-  
+
 #we-need-you{ background: #ccc url('/img/bg/we-for-you-bg.jpg') no-repeat; background-size: cover;}
 #we-need-you .txt{margin: 94px 0;}
 #we-need-you .title{text-transform: uppercase; font-size: 20px;}
@@ -114,7 +114,7 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 
 #we-why{padding-bottom: 30px; background: #000 url('/img/bg/5-bg-img.jpg') no-repeat; background-size:cover; color: #fff;}
 #we-why h2{margin: 45px auto 10px;}
-#we-why .block{margin-top: 10px; display: flex; background: #fff; color: #000; height: 278px; width: 278px;}
+#we-why .block{margin: 10px; display: flex; background: #fff; color: #000; height: 278px; width: 278px;}
 #we-why .block p{margin:auto; text-align: center;}
 #we-why .block-text{ margin: 50px auto 40px;}
 #we-why .block-p{margin-bottom: 40px;}
@@ -127,9 +127,9 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 #description{padding: 70px 0 80px;}
 #description p{padding-left: 20px;}
 
-#unique-offer{background: #757575; }
+#unique-offer{background: #757575 url('/img/Factory.jpg') no-repeat; background-size: cover; }
 #unique-offer .block-main{margin-bottom: 110px;}
-#unique-offer h3{background: #f5f5f5; text-transform: uppercase; color: #dd4f4d; font-weight: bold; padding: 20px; margin: 10px 0 0;}
+#unique-offer h3{background:rgba(245, 245, 245, 0.80); text-transform: uppercase; color: #dd4f4d; font-weight: bold; padding: 20px; margin: 10px 0 0;}
 #unique-offer .carousel-inner{background: #ebebeb; padding: 20px; }
 #unique-offer .carousel-indicators{position: relative; background: #f5f5f5; bottom: 0; width: 100%; margin: 0; left: 0; padding: 20px;}
 #unique-offer .carousel-indicators li {width: 15px; height: 15px; border: 1px solid #afafaf; border-radius: 15px; background-color: #fff;}
@@ -152,6 +152,7 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 #partner  button.next{background-image: url('/img/icon/slider-arr-next.png'); background-position: 100%; padding-right: 35px; margin-left: 50px;}
 #partner  button.prev:hover{background-image: url(/img/icon/slider-arr-prev0.png);}
 #partner  button.next:hover{background-image: url(/img/icon/slider-arr-next0.png);}
+#partner .gallery{max-width: 100%}
 
 footer{background: #3c4047; padding: 50px 0; color: #fff;}
 footer p{color: #fff;}
@@ -162,11 +163,11 @@ footer .txt{color: #959595}
 form button.btn{width: 100%; margin: 20px 0 0 0; }
 
 @media (max-width: 768px) {
-  h2{ font-size: 25px;}
-  #slider .head-slide h2 {font-size: 20px}
-  #slider .head-slide .text-right {text-align: left;}
-  #slider .head-slide .block{min-height: 130px;}
-  #slider .head-slide .sm-hr{border-bottom: 1px solid #fff;}
+  header .logo{text-align: center; margin-bottom: 20px;}
+  #slider h1 {font-size: 30px}
+  section h2 {font-size: 26px;}
+  #we-need  .img-circle{padding: 24px 0;}
+
 }
 
 #click-form{display: none; background: rgba(60, 64, 71, 0.75); padding: 20px; z-index: 99}

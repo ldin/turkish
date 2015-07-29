@@ -4,7 +4,7 @@
 
 @section('content')
 
-        <section id="slider" class='dark'>
+<section id="slider" class='dark'>
             <div class="container text-center">
                 <div class="row">
                     <p class="title">«Совет Консалтинг»</p>
@@ -18,7 +18,7 @@
         </section>
         <section id="we-service" class="light">
             <div class="container">
-                <h2>Мы оказываем<br> широкий спектр услуг:</h2>
+                <h2>Мы оказываем<br> широкий спектр услуг</h2>
                 <hr class="h2-line">
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block">
@@ -140,7 +140,7 @@
             <div class="container">
                 <h2>Мы знаем как</h2>
                 <hr class="h2-line">
-                <div class="row">
+                <div class="row text-center">
                     <div class="col-sm-6 col-xs-12">
                         <div class="block block-hover block-right">
                             <div class="title txt-big">
@@ -392,20 +392,24 @@
         </section>
 
         <section id="partner" class="light">
-            <h2>С нами работают:</h2>
+            <h2>С нами работают</h2>
             <div class="container text-center">
+                <div class="row">
+                    <div class="col-xs-12">
 
-                <div class="gallery">
-                    <ul>
-                        <li><img src="/img/partner/11.png" height="113px" width="200px" alt=""/></li>
-                        <li><img src="/img/partner/12.png" height="113px" width="200px" alt=""/></li>
-                        <li><img src="/img/partner/13.png" height="113px" width="180px" alt=""/></li>
-                        <li><img src="/img/partner/15.png" height="113px" width="166px" alt=""/></li>
-                    </ul>
+                        <div class="gallery">
+                            <ul>
+                                <li><img src="/img/partner/11.png" height="113px" width="200px" alt=""/></li>
+                                <li><img src="/img/partner/12.png" height="113px" width="200px" alt=""/></li>
+                                <li><img src="/img/partner/13.png" height="113px" width="180px" alt=""/></li>
+                                <li><img src="/img/partner/15.png" height="113px" width="166px" alt=""/></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <button class="prev">prev</button>
+                        <button class="next">next</button>
+                    </div>
                 </div>
-                <hr>
-                <button class="prev">prev</button>
-                <button class="next">next</button>
 
             </div>
         </section>
