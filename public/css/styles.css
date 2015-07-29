@@ -127,7 +127,7 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 #description{padding: 70px 0 80px;}
 #description p{padding-left: 20px;}
 
-#unique-offer{background: #757575 url('/img/Factory.jpg') no-repeat; background-size: cover; }
+#unique-offer{background: #757575 url('/img/bg/Factory.jpg') no-repeat; background-size: cover; }
 #unique-offer .block-main{margin-bottom: 110px;}
 #unique-offer h3{background:rgba(245, 245, 245, 0.80); text-transform: uppercase; color: #dd4f4d; font-weight: bold; padding: 20px; margin: 10px 0 0;}
 #unique-offer .carousel-inner{background: #ebebeb; padding: 20px; }
