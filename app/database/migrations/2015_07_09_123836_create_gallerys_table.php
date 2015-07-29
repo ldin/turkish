@@ -24,6 +24,8 @@ class CreateGallerysTable extends Migration {
             $table->smallInteger('parent');
             $table->string('tags');
             $table->smallInteger('status');
+            $table->string('alt');
+            $table->smallInteger('sorted');
             $table->boolean('noindex');
             $table->string('description');
             $table->string('keywords');
