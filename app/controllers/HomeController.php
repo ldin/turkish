@@ -50,7 +50,7 @@ class HomeController extends BaseController {
                 $galleries = Gallery::where('post_id', $parent->id)->get();
             }
         }
-        
+
 
         $view = array(
             'type'=>$type_post,
@@ -86,9 +86,9 @@ class HomeController extends BaseController {
             $post->text = $all['text'];
             $post->save();
 
-            // $mail = Setting::where('name', 'email')->first();
-            // $mail = 'ldin04ka@mail.ru';
-            $mail = 'cenoura@yandex.ru';
+            // $mail = Setting::where('name', 'email')->first('value');
+             $mail = 'ldin04ka@mail.ru';
+            // $mail = 'cenoura@yandex.ru';
              //var_dump($mail->value); die();
 
             $messages = '<b>Пользователь: </b>'.$all['name'].'<br>';

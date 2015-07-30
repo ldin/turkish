@@ -9,7 +9,7 @@ class SettingTableSeeder extends Seeder {
     DB::table('settings')->insert(array(
       array( 'name' => 'phone', 'title'=>'phone', 'value'=>'', ),
       array( 'name' => 'email', 'title'=>'email', 'value'=>'', ),
-      array( 'name' => '', 'title'=>'', 'value'=>'', ),
+      array( 'name' => 'title', 'title'=>'title', 'value'=>'Совет Консалтинг - oрганизация и сопровождение бизнеса в Tурции', ),
       array( 'name' => '', 'title'=>'', 'value'=>'', ),
       array( 'name' => '', 'title'=>'', 'value'=>'', ),
       array( 'name' => '', 'title'=>'', 'value'=>'', ),

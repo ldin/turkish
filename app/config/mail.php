@@ -57,7 +57,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'electromontaz.ru@yandex.ru', 'name' => 'electromontaz'),
+	'from' => array('address' => 'sovet.ant@yandex.ru', 'name' => 'Sovet Consulting'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ return array(
 	|
 	*/
 
-	'username' => 'electromontaz.ru',
+	'username' => 'sovet.ant',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return array(
 	|
 	*/
 
-	'password' => 'Ckj;ysqgfhjkm',
+	'password' => '8trMABjfUhhANtrzuU',
 
 	/*
 	|--------------------------------------------------------------------------

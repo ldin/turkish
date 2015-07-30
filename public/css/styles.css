@@ -27,8 +27,10 @@ html{position: relative; min-height: 100%; }
 
 .left{float: left;}
 .right{float: right;}
+:focus {outline: none;}
 
 .navbar{margin: 0;}
+
 
 /*p*/
 p{font-size: 16px; color: #000}
@@ -57,6 +59,8 @@ hr.h2-line{background: url('/img/line.png') no-repeat top center; height: 10px; 
 .btn-form{ background: #dd4f4d; color: #fff;}
 .btn-form:hover{background: #bc0900; color: #fff;}
 
+
+
 /*main-page*/
 #slider img, #we-service img, #unique-offer img{max-width: 100%;}
 
@@ -70,7 +74,7 @@ header .navbar{background: #dd4f4d; border: none; }
 header .inline-navbar {display: inline-block; margin-bottom: -5px;}
 header .navbar-nav>.active>a{background-color: #000; }
 header .navbar-nav a{color: #fcfcfc; text-transform: uppercase; font-weight: normal;}
-header .navbar-nav a:hover{background: #3c3c3c; }
+header .navbar-nav a:hover, header .navbar-nav a:focus{background: #3c3c3c; }
 header .navbar-nav>.active>a:hover{color: #fff; }
 header .navbar-toggle .icon-bar { background-color: #fff;}
 

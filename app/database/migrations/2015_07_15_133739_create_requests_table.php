@@ -14,7 +14,7 @@ class CreateRequestsTable extends Migration {
 	{
         Schema::create('requests', function($table) {
             $table->increments('id');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('name');
             $table->string('phone');
             $table->text('text');
