@@ -32,7 +32,7 @@
                 </div>
                 <div class=" col-lg-3 col-sm-4 col-xs-12 phone text-right">
                     <p>E-MAIL: <span class="small"><a href="mail:info@infoturk.biz">info@infoturk.biz</a></span></p>
-                    <p>Skype: <span class="small"> infoturk-1, sovet-1</span></p>
+                    <p>Skype: <span class="small"> <b>infoturk-1</b>, <b>sovet-1</b></span></p>
                 </div>
 
             </div>

@@ -7,7 +7,7 @@
 <section id="slider" class='dark'>
             <div class="container text-center">
                 <div class="row">
-                    <p class="title">«Совет Консалтинг»</p>
+                    <p class="title">«Sovet Consulting»</p>
                     <h1>Организация и сопровождение<br> бизнеса в турции</h1>
                 </div>
                 <div class="row  block-btn">
