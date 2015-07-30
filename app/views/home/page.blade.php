@@ -17,7 +17,17 @@
 
                 <ul class="menu-page nav nav-pills nav-stacked">
                     @foreach($posts as $post)
-                        <li {{ (Request::is( $type->type.'/'.$post->slug)) ? 'class="active"' : '' }} >{{ HTML::link('/'.$type->type.'/'.$post->slug, $post->name) }}</li>
+                        <li {{ (Request::is( $type->type.'/'.$post->slug)) ? 'class="active"' : '' }} >{{ HTML::link('/'.$type->type.'/'.$post->slug, $post->name) }}
+                            @if(isset($posts_child)&&count($posts_child)>0)
+                                <ul>
+                                    @foreach($posts_child as $post_ch)
+                                        @if($post_ch->parent == $post->id)
+                                            <li>{{ HTML::link('/'.$type->type.'/'.$post_ch->slug, $post_ch->name) }}</li>
+                                        @endif
+                                    @endforeach
+                                </ul>
+                            @endif
+                        </li>
                     @endforeach
                 </ul>
 
@@ -43,7 +53,7 @@
                     {{ $row->text }}
                 @endif
 
-                @if(isset($posts_child)&&count($posts_child)>0)
+<!--                 @if(isset($posts_child)&&count($posts_child)>0)
                     @foreach($posts_child as $post)
                         <?php $parts = preg_split('/<div style="page-break-after: always"><span style="display:none">&nbsp;<\/span><\/div>/', $post->text); ?>
 
@@ -61,6 +71,7 @@
                         </div>
                     @endforeach
                 @endif
+                -->
 
             @else
                 @if(!empty($row->text))

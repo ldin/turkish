@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://www.electromontaz.ru/',
+	'url' => 'http://www.bizness-turcia.ru/',
 
 	/*
 	|--------------------------------------------------------------------------

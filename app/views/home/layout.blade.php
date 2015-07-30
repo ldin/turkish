@@ -108,6 +108,7 @@
                         <form method="POST" action="/form-request"  role="form">
                             <div class="row">
                                 <div class="col-xs-12">
+                                    <p class="title-h1">Связаться с нами</p>
                                     <div class="form-group">
                                         <label for="inputName" class="sr-only">Имя</label>
                                         <input type="text" name="name" class="form-control" id="inputName" placeholder="Ваше имя">
