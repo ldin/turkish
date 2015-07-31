@@ -57,7 +57,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'sovet.ant@yandex.ru', 'name' => 'Sovet Consulting'),
+	'from' => array('address' => 'infoturk.os@yandex.ru', 'name' => 'Sovet Consulting'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ return array(
 	|
 	*/
 
-	'username' => 'sovet.ant',
+	'username' => 'infoturk.os',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return array(
 	|
 	*/
 
-	'password' => '8trMABjfUhhANtrzuU',
+	'password' => 'Vw3CpL7yapuTS9T',
 
 	/*
 	|--------------------------------------------------------------------------

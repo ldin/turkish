@@ -87,8 +87,8 @@ class HomeController extends BaseController {
             $post->save();
 
             // $mail = Setting::where('name', 'email')->first('value');
-             $mail = 'ldin04ka@mail.ru';
-            // $mail = 'cenoura@yandex.ru';
+            // $mail = 'ldin04ka@mail.ru';
+            $mail = 'sovet.consul@gmail.com';
              //var_dump($mail->value); die();
 
             $messages = '<b>Пользователь: </b>'.$all['name'].'<br>';
