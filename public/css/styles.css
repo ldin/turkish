@@ -78,7 +78,7 @@ header .navbar-nav a:hover, header .navbar-nav a:focus{background: #3c3c3c; }
 header .navbar-nav>.active>a:hover{color: #fff; }
 header .navbar-toggle .icon-bar { background-color: #fff;}
 
-#slider{background: #788c93 url('/img/bg/top-img02.png') no-repeat; background-size:cover; padding: 100px 0 50px; }
+#slider{background: #788c93 url('/img/bg/top-img02.jpg') no-repeat; background-size:cover; padding: 100px 0 50px; }
 /*#slider .bg{background:  url('/img/bg/HeadImg.jpg') no-repeat; background-size:auto 100% ; background-position: 50%; padding: 100px 0 50px; }*/
 #slider p.title{font-size: 30px}
 #slider h1, #slider p{color: #fff;}
