@@ -8,5 +8,7 @@ composer.lock
 Thumbs.db
 
 
-app/config/local/database.php
+app/config/local/
 bootstrap/start.php
+app/config/app.php
+app/config/database.php
