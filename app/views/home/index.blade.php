@@ -11,8 +11,8 @@
                     <h1>Организация и сопровождение<br> бизнеса в турции</h1>
                 </div>
                 <div class="row  block-btn">
-                    <a href="#" class="btn btn-head">Инвестиции</a>
-                    <a href="#" class="btn btn-head">Производство</a>
+                    <a href="/uslugi/investicii-v-turcii" class="btn btn-head">Инвестиции</a>
+                    <a href="http://sovet.com.tr" class="btn btn-head">Производство</a>
                 </div>
             </div>
         </section>
@@ -117,8 +117,8 @@
 
                 </div>
                 <div class="row block-btn text-center">
-                    <a class="btn btn-form" onclick="openForm(this);">Задать вопрос</a>
-                    <a class="btn btn-links">Все услуги</a>
+                    <a href="#footer" class="btn btn-form" onclickno="openForm(this);">Задать вопрос</a>
+                    <a href="/uslugi" class="btn btn-links">Все услуги</a>
                 </div>
             </div>
         </section>
@@ -219,7 +219,7 @@
 
                 </div>
                 <div class="row block-btn text-center">
-                    <a class="btn btn-form">Заказать звонок</a>
+                    <a href="#footer" class="btn btn-form">Заказать звонок</a>
                     <!-- <a class="btn btn-form">Оставить заявку</a> -->
                     <!-- <a class="btn btn-links">Подробнее</a> -->
                 </div>
