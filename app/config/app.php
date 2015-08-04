@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://www.bizness-turcia.ru/',
+	'url' => 'http://infoturk.biz',
 
 	/*
 	|--------------------------------------------------------------------------
