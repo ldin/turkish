@@ -186,3 +186,6 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 .nav-pills>li>ul{background:  #e1e1e1; list-style: none; margin: 2px 0; padding:0;}
 .nav-pills>li>ul>li>a{text-decoration: none; display: block; padding: 10px 15px;}
 .nav-pills>li>ul>li>a:hover{background: #798c93; color: #fff; }
+
+/*left column*/
+.left_column img{max-width: 100%;}

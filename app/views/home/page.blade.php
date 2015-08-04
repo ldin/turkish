@@ -7,13 +7,14 @@
 @section('content')
 
     <div id="content" class="container">
+    <div class="row">
 
     <?// var_dump($posts); ?>
 
 
 
         @if(isset($posts)&&count($posts)>0)
-            <div class="col-xs-12 col-sm-2">
+            <div class="col-xs-12 col-sm-3">
 
                 <ul class="menu-page nav nav-pills nav-stacked">
                     @foreach($posts as $post)
@@ -33,7 +34,7 @@
 
             </div>
 
-            <div class="col-xs-12 col-sm-10">
+            <div class="col-xs-12 col-sm-9">
 
         @elseif(!isset($posts)||count($posts)==0)
 
@@ -47,8 +48,7 @@
             @endif
 
             @if(isset($posts)&&count($posts)>0)
-                <p class="page-title">{{ $type->title }}</p>
-
+               
                 @if(!empty($row->text))
                     {{ $row->text }}
                 @endif
@@ -79,6 +79,18 @@
                 @endif
             @endif
         </div>
+
+<!--         <div class="col-xs-12 col-sm-3">
+            <div class="left_column">
+                <br>
+                <p>«ЗАВОД ПОД КЛЮЧ»</p>
+                <img src="/img/slider/test.jpg">
+                <p>Мы построим завод под ключ. Следствие: бесконечно малая величина осмысленно нейтрализует график функции многих переменных. Аффинное преобразование не критично. Используя таблицу интегралов элементарных функций, получим: асимптота вырождена. Комплексное число, следовательно, уравновешивает комплексный двойной интеграл. Максимум охватывает линейно зависимый интеграл от функции, обращающейся в бесконечность вдоль линии, что неудивительно. Аксиома соответствует натуральный логарифм. </p>
+            </div>
+        </div> -->
+
+    </div>
+
     </div>
 
 @stop

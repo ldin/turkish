@@ -28,7 +28,7 @@
             {{ Form::select('template', $templates, (isset($row->template)?$row->template:''), array('class' => 'form-control ', 'id'=>'selectTemplate'))}}
         </div>
         <div class="form-group">
-            {{ Form::label('inputTitle', 'Заголовок', array('class'=>'control-label')) }}
+            {{ Form::label('inputTitle', 'Title', array('class'=>'control-label')) }}
             {{ Form::text('title', (isset($row->title)?$row->title:''), array('class' => 'form-control', 'id'=>'inputTitle')); }}
         </div>
         <div class="form-group">

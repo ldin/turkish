@@ -84,7 +84,7 @@ class AdminController extends BaseController {
         {
             $all = Input::all();
              //var_dump($all); die();
-            if(!$all['slug']) {$all['slug'] = BaseController::ru2Lat($all['name']);}
+            if(!$all['slug']) {$all['slug'] = BaseController::ru2Lat($all['title']);}
             $rules = array(
                 'name' => 'required|min:2|max:255',
                 'title' => 'required|min:3|max:255',
