@@ -22,6 +22,7 @@
                 <hr class="h2-line">
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                        <a href="/uslugi/tamoznya-v-turcii">
                         <div class="block block-hover block-1">
                             <div class="title txt-big">
                                 <p>Таможня</p>
@@ -34,8 +35,10 @@
                                 </p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-6  col-xs-12 col-block">
+                        <a href="/uslugi/marketingovyie-issledovaniya-v-turtsii">
                         <div class="block block-hover block-2">
                             <div class="title txt-big">
                                 <p>Маркетинг</p>
@@ -48,8 +51,10 @@
                                 </p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-6  col-xs-12 col-block">
+                        <a href="/uslugi/urist-v-turcii">
                         <div class="block block-hover block-3">
                             <div class="title txt-big">
                                 <p>Юридические услуги</p>
@@ -65,8 +70,10 @@
                                 </p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                        <a href="/uslugi/personal">
                         <div class="block block-hover block-4">
                             <div class="title txt-big">
                                 <p>Персонал</p>
@@ -81,8 +88,10 @@
                                 </p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                        <a href="/uslugi/buhgalter-v-turcii">
                         <div class="block block-hover block-5">
                             <div class="title txt-big">
                                 <p>Бухгалтерия</p>
@@ -96,8 +105,10 @@
                                 </p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                        <a href="/uslugi/reklama-pr">
                         <div class="block block-hover block-6">
                             <div class="title txt-big">
                                 <p>Реклама и PR</p>
@@ -113,6 +124,7 @@
                                 </p>
                             </div>
                         </div>
+                        </a>
                     </div>
 
                 </div>
@@ -131,7 +143,7 @@
                     <p>А тут идет какой-то длинный текст</p>
                 </div>
                 <div class="txt-center block-btn">
-                    <a href="#" class="btn btn-form">Оставить заявку</a>
+                    <a href="#footer" class="btn btn-form">Оставить заявку</a>
                 </div>
             </div>
         </section>
@@ -386,7 +398,7 @@
 
                 </div>
                 <div class="row text-center block-btn">
-                    <a href="#" class="btn btn-form">Подробнее</a>
+                    <a href="http://sovet.com.tr" class="btn btn-form">Подробнее</a>
                 </div>
             </div>
         </section>

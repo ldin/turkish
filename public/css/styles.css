@@ -92,7 +92,8 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 .block-hover .title, .block-hover:hover .description{ height: 100%; width: 100%; display: flex;  }
 .block-hover .description, .block-hover:hover .title{display: none;}
 .block-hover p{margin: auto 0; }
-#we-service .description p{color: #fff}
+#we-service .description p{color: #fff;}
+#we-service a, #we-service a:hover{ text-decoration: none;}
 #we-service .col-block{padding: 2px}
 #we-service .block-1{background-image: url('/img/service/cust.png');}
 #we-service .block-2{background-image: url('/img/service/marketing.png'); background-color: #e8e8e8;}

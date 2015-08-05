@@ -9,7 +9,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/styles.css?0008" rel="stylesheet">
+    <link href="/css/styles.css?0009" rel="stylesheet">
 
     @yield('header')
 
