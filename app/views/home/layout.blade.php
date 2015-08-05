@@ -18,7 +18,7 @@
 <body>
 
     <header>
-        <div class="container top-block">
+        <div class="container top-block js-header-block">
             <div class="row">
                 <div class=" col-lg-5 col-xs-12 col-sm-4">
                     <a href="/">
@@ -37,7 +37,7 @@
 
             </div>
         </div>
-        <nav class="navbar">
+        <nav class="navbar" id="menu">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
