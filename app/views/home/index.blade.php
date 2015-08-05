@@ -2,6 +2,10 @@
 
 @section('title') «Совет Консалтинг» oрганизация и сопровождение бизнеса в турции @stop
 
+@section('header')
+    {{ HTML::style('/css/animate.css'); }}
+@stop
+
 @section('content')
 
         <section id="slider" data-type="background" data-speed="10" class="pages dark">
@@ -11,8 +15,8 @@
                     <h1>Организация и сопровождение<br> бизнеса в турции</h1>
                 </div>
                 <div class="row  block-btn">
-                    <a href="/uslugi/investicii-v-turcii" class="btn btn-head">Инвестиции</a>
-                    <a href="http://sovet.com.tr" class="btn btn-head">Производство</a>
+                    <a href="/uslugi/investicii-v-turcii" class="btn btn-head wow flipInX ">Инвестиции</a>
+                    <a href="http://sovet.com.tr" class="btn btn-head wow flipInX">Производство</a>
                 </div>
             </div>
         </section>
@@ -22,7 +26,7 @@
                 <h2>Мы оказываем<br> широкий спектр услуг</h2>
                 <hr class="h2-line">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block  wow slideInLeft">
                         <a href="/uslugi/tamoznya-v-turcii">
                         <div class="block block-hover block-1">
                             <div class="title txt-big">
@@ -38,7 +42,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6  col-xs-12 col-block">
+                    <div class="col-md-4 col-sm-6  col-xs-12 col-block wow bounceInUp" >
                         <a href="/uslugi/marketingovyie-issledovaniya-v-turtsii">
                         <div class="block block-hover block-2">
                             <div class="title txt-big">
@@ -54,7 +58,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6  col-xs-12 col-block">
+                    <div class="col-md-4 col-sm-6  col-xs-12 col-block   wow slideInRight">
                         <a href="/uslugi/urist-v-turcii">
                         <div class="block block-hover block-3">
                             <div class="title txt-big">
@@ -73,7 +77,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block   wow slideInLeft">
                         <a href="/uslugi/personal">
                         <div class="block block-hover block-4">
                             <div class="title txt-big">
@@ -91,7 +95,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block  wow bounceInUp">
                         <a href="/uslugi/buhgalter-v-turcii">
                         <div class="block block-hover block-5">
                             <div class="title txt-big">
@@ -108,7 +112,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block wow slideInRight">
                         <a href="/uslugi/reklama-pr">
                         <div class="block block-hover block-6">
                             <div class="title txt-big">
@@ -130,8 +134,8 @@
 
                 </div>
                 <div class="row block-btn text-center">
-                    <a href="#footer" class="btn btn-form" onclickno="openForm(this);">Задать вопрос</a>
-                    <a href="/uslugi" class="btn btn-links">Все услуги</a>
+                    <a href="#footer" class="btn btn-form wow fadeInUpBig" onclickno="openForm(this);">Задать вопрос</a>
+                    <a href="/uslugi" class="btn btn-links wow fadeInUpBig">Все услуги</a>
                 </div>
             </div>
         </section>
@@ -144,7 +148,7 @@
                     <p>комфортно вести дела в Турции</p>
                 </div>
                 <div class="txt-center block-btn">
-                    <a href="#footer" class="btn btn-form">Оставить заявку</a>
+                    <a href="#footer" class="btn btn-form  wow bounceInUp">Оставить заявку</a>
                 </div>
             </div>
         </section>
@@ -154,8 +158,8 @@
                 <h2>Мы знаем как</h2>
                 <hr class="h2-line">
                 <div class="row text-center">
-                    <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-right">
+                    <div class="col-sm-6 col-xs-12 ">
+                        <div class="block block-hover block-right  wow slideInLeft">
                             <div class="title txt-big">
                                 <p class="col-xs-8">инвестировать</p>
                                 <div class="img-circle col-xs-4">
@@ -173,7 +177,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-left">
+                        <div class="block block-hover block-left  wow slideInRight">
                             <div class="title txt-big">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-baybusinest-ico.png" >
@@ -192,7 +196,7 @@
                     </div>
 
                     <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-right">
+                        <div class="block block-hover block-right  wow slideInLeft">
                             <div class="title txt-big">
                                 <p class="col-xs-8">развить существующий бизнес</p>
                                 <div class="img-circle col-xs-4">
@@ -210,7 +214,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-left">
+                        <div class="block block-hover block-left  wow slideInRight">
                             <div class="title txt-big">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-expand-ico.png" >
@@ -232,7 +236,7 @@
 
                 </div>
                 <div class="row block-btn text-center">
-                    <a href="#footer" class="btn btn-form">Заказать звонок</a>
+                    <a href="#footer" class="btn btn-form   wow bounceInUp">Заказать звонок</a>
                     <!-- <a class="btn btn-form">Оставить заявку</a> -->
                     <!-- <a class="btn btn-links">Подробнее</a> -->
                 </div>
@@ -384,7 +388,7 @@
 
                 </div>
                 <div class="row text-center block-btn">
-                    <a href="http://sovet.com.tr" class="btn btn-form">Подробнее</a>
+                    <a href="http://sovet.com.tr" class="btn btn-form  wow bounceInUp">Подробнее</a>
                 </div>
             </div>
         </section>
@@ -446,5 +450,18 @@
 @stop
 
 @section('scripts')
+    {{ HTML::script('/js/wow.min.js'); }}
+
+    <script>
+     new WOW(
+     {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       true,       // default
+      live:         true        // default
+    }
+    ).init();
+    </script>
 
 @stop
