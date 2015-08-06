@@ -70,7 +70,7 @@ header p .small{text-transform: none;}
 .red, .red a{color: #bf5557;}
 header .top-block{padding-top:20px; padding-bottom: 25px}
 header .top-block a{font-weight: bold;}
-header .navbar{background: #dd4f4d; border: none; }
+header .navbar{background: #dd4f4d; border: none; border-radius: 0;}
 header .inline-navbar {display: inline-block; margin-bottom: -5px;}
 header .navbar-nav>.active>a{background-color: #000; }
 header .navbar-nav a{color: #fcfcfc; text-transform: uppercase; font-weight: normal;}
