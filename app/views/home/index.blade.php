@@ -140,7 +140,7 @@
             </div>
         </section>
 
-        <section id="we-need-you" data-type="background" data-speed="30" class="pages dark">
+        <section id="we-need-you" data-type="background" data-speed="10" class="pages dark">
             <div class="container text-center">
                 <h2>Мы нужны вам,</h2>
                 <p class="title">если вы хотите</p>
@@ -243,7 +243,7 @@
             </div>
         </section>
 
-        <section id="we-why" data-type="background" data-speed="30" class="pages dark">
+        <section id="we-why" data-type="background" data-speed="10" class="pages dark">
             <div class="container">
                 <h2>Почему выбирают нас?</h2>
                 <p class="text-center title-h2">Партнеры и заказчики доверяют нам</p>
@@ -321,7 +321,7 @@
             </div>
         </section>
 
-        <section id="unique-offer" data-type="background" data-speed="30" class="pages dark">
+        <section id="unique-offer" data-type="background" data-speed="10" class="pages dark">
             <div class="container">
                 <h2>Уникальное предложение</h2>
                 <hr class="h2-line">
