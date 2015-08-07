@@ -60,6 +60,13 @@ hr.h2-line{background: url('/img/line.png') no-repeat top center; height: 10px; 
 .btn-form:hover{background: #bc0900; color: #fff;}
 
 
+/*social*/
+.social{width: 24px; height: 24px; display: inline-block; background: url('/img/social-icons-24x24.png') no-repeat;}
+.social:hover{background-image: url('/img/social-icons-24x24-hover.png')}
+.social.fb{background-position: 0 0;}
+.social.vk{background-position: -31px 0;}
+.social.tw{background-position: -126px 0;}
+.social.li{background-position: -126px -31px;}
 
 /*main-page*/
 #slider img, #we-service img, #unique-offer img{max-width: 100%;}
