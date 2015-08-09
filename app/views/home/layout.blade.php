@@ -115,16 +115,17 @@
                 </div>
                 <div class="col-sm-4 col-xs-12">
                     <p>Инвестиции<br>
-                    <span class="txt">Инвестиционный консалтинг</span></p>
+                    <span class="txt"><a href="/uslugi/investicii-v-turcii">Инвестиционный консалтинг</a></span></p>
                     <p>Производство<br>
-                    <span class="txt">Выгодное вложение в производство</span></p>
+                    <span class="txt"><a href="http://sovet.com.tr/">Выгодное вложение в производство</a></span></p>
                     <p>Услуги<br>
-                    <span class="txt">Таможня<br>
-                    Маркетинг<br>
-                    Юридические услуги<br>
-                    Персонал<br>
-                    Бухгалтерия<br>
-                    Реклама и PR</span></p>
+                    <span class="txt">
+                    <a href="/uslugi/tamoznya-v-turcii">Таможня</a><br>
+                    <a href="/uslugi/marketingovyie-issledovaniya-v-turtsii">Маркетинг</a><br>
+                    <a href="/uslugi/urist-v-turcii">Юридические услуги</a><br>
+                    <a href="/uslugi/personal">Персонал</a><br>
+                    <a href="/uslugi/buhgalter-v-turcii">Бухгалтерия</a><br>
+                    <a href="/uslugi/reklama-pr">Реклама и PR</a></span></p>
                 </div>
                 <div class="col-sm-4 col-xs-12">
                     <form method="POST" action="/form-request"  role="form">

@@ -172,7 +172,7 @@ footer{background: #3c4047; padding: 50px 0; color: #fff;}
 footer p{color: #fff;}
 footer .title-h1{text-transform: uppercase; font-weight: bold;}
 footer .title{font-weight: bold; border-bottom: 1px solid #707070; padding-bottom: 10px;}
-footer a, footer a:hover{color: #fff;}
+footer a, footer a:hover{color: #fff; font-weight: normal;}
 footer .txt, footer .txt a{color: #959595;}
 footer .contact .txt{margin: 0;}
 form button.btn{width: 100%; margin: 20px 0 0 0; }
