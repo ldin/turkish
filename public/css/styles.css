@@ -77,7 +77,7 @@ header p .small{text-transform: none;}
 .red, .red a{color: #bf5557;}
 header .top-block{padding-top:20px; padding-bottom: 25px}
 header .top-block a{font-weight: bold;}
-header .navbar{background: #dd4f4d; border: none; }
+header .navbar{background: #dd4f4d; border: none; border-radius: 0}
 header .inline-navbar {display: inline-block; margin-bottom: -5px;}
 header .navbar-nav>.active>a{background-color: #000; }
 header .navbar-nav a{color: #fcfcfc; text-transform: uppercase; font-weight: normal;}
@@ -201,6 +201,12 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 .nav-pills>li>ul{background:  #ededed; list-style: none; margin: 2px 0; padding:0;}
 .nav-pills>li>ul>li>a{text-decoration: none; display: block; padding: 10px 15px 10px 30px; font-weight: normal;}
 .nav-pills>li>ul>li>a:hover{background: #dadfe0; color: #000; }
+
+/*.menu-page li.active ul{display: block;}*/
+
+.breadcrumbs{margin: 10px;}
+.breadcrumbs .page{color: #7b8c94}
+.loc{cursor: pointer;}
 
 /*left column*/
 .left_column img{max-width: 100%;}
