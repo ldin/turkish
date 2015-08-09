@@ -26,9 +26,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12 phone text-right">
-                    <p class="red">горячая линия: <a href="tel:+905414086107">+90 541 408 6107</a></p>
-                    <p>офис в анталии: <a href="tel:+902423163651">+90 242 316 3651</a></p>
-                    <p>офис в стамбуле: <a href="tel:+90 532 388 0314">+90 532 388 0314</a></p>
+                    <p class="red">горячая линия: <a href="tel:+905323880314"> +90 532 388 0314</a></p>
+                    <p>офис в анталии: <a href="tel:+902423163651"> +90 242 316 3651</a></p>
+                    <p> <a href="tel:+905414086107"> +90 541 408 6107</a></p>
                 </div>
                 <div class=" col-lg-3 col-sm-4 col-xs-12 phone text-right">
                     <p>E-MAIL: <span class="small"><a href="mail:info@infoturk.biz">info@infoturk.biz</a></span></p>
@@ -84,18 +84,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <p class="title-h1">Организация и сопровождение бизнеса в турции+</p>
-                    <p class="txt">
-                    ГОРЯЧАЯ ЛИНИЯ: +90 541 408 6107<br>
-                    ОФИС В АНТАЛИИ: +90 242 316 3651<br>
-                    ОФИС В СТАМБУЛЕ: +90 532 388 03 14<br>
-                    E-MAIL: info@infoturk.biz<br>
-                    Skype: infoturk-1, sovet-1</p>
-                    <br><br><br>
-                    <p class="txt">© SovetConsulting 1999-2015</p>
-                                        <p></p>
-                                    </div>
-                                    <div class="col-sm-4 col-xs-12">
+                    <div itemscope itemtype="http://schema.org/Organization">
+                        <p class="title-h1">Организация и сопровождение бизнеса в турции+</p>
+                        <br>
+                        <div class="contact text-left">
+                            <p class="txt">
+                                <span class="">ГОРЯЧАЯ ЛИНИЯ:</span> 
+                                <a href="tel:+905323880314"><span itemprop="telephone">+90 532 388 03 14</span></a>
+                            </p>
+                            <p class="txt">
+                                <span class="">ОФИС В АНТАЛИИ: </span>
+                                <a href="tel:+902423163651">+90 242 316 3651</a>
+                            </p>
+                            <p class="txt">
+                                <a href="+905414086107" class="col-xs-offset-5">+90 541 408 6107</a>
+                            </p>
+                            <br>
+                            <p class="txt">
+                                <span class="">E-MAIL: </span>
+                                <a href="mailto:info@infoturk.biz" class=""><span itemprop="email">info@infoturk.biz</a></span>
+                            </p>
+                            <p class="txt">
+                                <span class="">Skype: </span>
+                                <span class="">infoturk-1, sovet-1 </span>
+                            </p>
+                        </div>    
+                        <br><br>
+                        <p class="txt">© <span itemprop="name">SovetConsulting</span> 1999-2015</p>
+                    </div>    
+                </div>
+                <div class="col-sm-4 col-xs-12">
                     <p>Инвестиции<br>
                     <span class="txt">Инвестиционный консалтинг</span></p>
                     <p>Производство<br>
@@ -107,37 +125,35 @@
                     Персонал<br>
                     Бухгалтерия<br>
                     Реклама и PR</span></p>
-
-
                 </div>
                 <div class="col-sm-4 col-xs-12">
-                        <form method="POST" action="/form-request"  role="form">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p class="title-h1">Связаться с нами</p>
-                                    <div class="form-group">
-                                        <label for="inputName" class="sr-only">Имя</label>
-                                        <input type="text" name="name" class="form-control" id="inputName" placeholder="Ваше имя">
-                                      </div>
-                                      <div class="form-group">
-                                        <label for="inputEmail" class="sr-only">Email</label>
-                                        <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Ваш e-mail">
-                                      </div>
-                                      <div class="form-group">
-                                        <label for="inputPhohe" class="sr-only">Телефон</label>
-                                        <input type="phone" name="phone" class="form-control" id="inputPhohe" placeholder="Ваш телефон">
-                                      </div>
-                                      <div class="form-group">
-                                        <label for="inputQuestion" class="sr-only">Ваш вопрос</label>
-                                        <input type="textarea" name="text" class="form-control" id="inputQuestion" placeholder="Ваш вопрос">
-                                      </div>
-                                      <div class="form-group">
+                    <form method="POST" action="/form-request"  role="form">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="title-h1">Связаться с нами</p>
+                                <div class="form-group">
+                                    <label for="inputName" class="sr-only">Имя</label>
+                                    <input type="text" name="name" class="form-control" id="inputName" placeholder="Ваше имя">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="inputEmail" class="sr-only">Email</label>
+                                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Ваш e-mail">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="inputPhohe" class="sr-only">Телефон</label>
+                                    <input type="phone" name="phone" class="form-control" id="inputPhohe" placeholder="Ваш телефон">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="inputQuestion" class="sr-only">Ваш вопрос</label>
+                                    <input type="textarea" name="text" class="form-control" id="inputQuestion" placeholder="Ваш вопрос">
+                                  </div>
+                                  <div class="form-group">
 
-                                    <button type="submit" class="btn btn-default">Оставить заявку</button>
-                                    </div>
+                                <button type="submit" class="btn btn-default">Оставить заявку</button>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
