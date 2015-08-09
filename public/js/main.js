@@ -23,8 +23,17 @@ $(document).ready(function(){
         }
     });	
 
+    //loc link
+    $('.loc').on('click', function() {
+        // console.log($(this).data('link'));
+        document.location.replace($(this).data('link') );
+    });
+
+    $('#menu ul li ul li.active');
+     // console.log($('#menu ul li ul li.active').parent().addClass('active'))
+
     function openForm(that){
-    	console.log(55, that);
+    	//console.log(55, that);
     }
 
 });	
