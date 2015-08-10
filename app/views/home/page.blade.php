@@ -61,7 +61,6 @@
             <div class="col-xs-12">
 
         @endif
-<? var_dump($posts, $posts_child) ?>
 
 
             @if(!empty($type->text) && empty($row))
