@@ -35,18 +35,26 @@ class HomeController extends BaseController {
         $posts_child = $galleries = $posts = $parent = array();
 
 
-        if(empty($type_post)||$type_post->template=='gallery'){
+        if(empty($type_post)){
+            return Response::view('errors.not-found')->header('Content-Type',  '404 Not Found');
+        }
+
+        if($type_post->template=='gallery'){
             $parent = Post::where('slug', $type)->first();
             $type_post = Type::where('id', $parent->type_id)->first();
             $galleries = Gallery::where('post_id', $parent->id)->get();
         }
-        else{
 
+        else{
+            
             $posts = Post::where('type_id',$type_post->id)->where('status',1)->where('parent',0)->orderBy('created_at', 'desc')->get();
+            $posts_child = Post::where('type_id',$type_post->id)->where('status',1)->where('parent', '!=',0)->orderBy('created_at', 'desc')->get();
+
+            // $posts = Post::where('type_id',$type_post->id)->where('status',1)->where('parent',0)->orderBy('created_at', 'desc')->get();
 
             if($slug!=''){
                 $parent = Post::where('slug',$slug)->first();
-                $posts_child = Post::where('type_id',$type_post->id)->where('status',1)->where('parent','=',$parent->id)->orderBy('created_at', 'desc')->get();
+                // $posts_child = Post::where('type_id',$type_post->id)->where('status',1)->where('parent','=',$parent->id)->orderBy('created_at', 'desc')->get();
                 $galleries = Gallery::where('post_id', $parent->id)->get();
             }
         }

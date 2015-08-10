@@ -31,8 +31,9 @@
 
                 <ul class="menu-page nav nav-pills nav-stacked ">
                     @foreach($posts as $post)
-                        <li {{ (Request::is( $type->type.'/'.$post->slug)) ? 'class="active"' : '' }} >{{ HTML::link('/'.$type->type.'/'.$post->slug, $post->name) }}
-                            <?//var_dump($row->parent, $post->id)?>
+                        <li {{ (Request::is( $type->type.'/'.$post->slug)) || (!empty($row)&&$row->parent==$post->id)? 'class="active"' : '' }} >
+                        {{ HTML::link('/'.$type->type.'/'.$post->slug, $post->name) }}
+                            
                             @if(isset($posts_child)&&count($posts_child)>0)
                                 <ul>
                                     @foreach($posts_child as $post_ch)
@@ -48,7 +49,10 @@
                     @endforeach
                 </ul>
 
+
+
             </div>
+
 
             <div class="col-xs-12 col-sm-9">
 
@@ -57,6 +61,7 @@
             <div class="col-xs-12">
 
         @endif
+<? var_dump($posts, $posts_child) ?>
 
 
             @if(!empty($type->text) && empty($row))

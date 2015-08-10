@@ -202,7 +202,10 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 .nav-pills>li>ul>li>a{text-decoration: none; display: block; padding: 10px 15px 10px 30px; font-weight: normal;}
 .nav-pills>li>ul>li>a:hover{background: #dadfe0; color: #000; }
 
-/*.menu-page li.active ul{display: block;}*/
+.menu-page li ul{display: none;}
+.menu-page li.active ul{display: block;}
+.menu-page ul li.active{background: #c6cbce; }
+.menu-page ul li.active>a{ color: #000;}
 
 .breadcrumbs{margin: 10px;}
 .breadcrumbs .page{color: #7b8c94}
@@ -210,3 +213,8 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 
 /*left column*/
 .left_column img{max-width: 100%;}
+
+/*404*/
+.block-404{min-height: 50vh}
+.error404{font-size: 40px; font-weight: bold;color: #e2e2e2;  text-shadow: #787878 1px 1px 0px;}
+.e404{font-size: 100px; border: 1px solid #787878; margin: 10px; padding: 0px 50px}
