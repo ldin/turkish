@@ -29,11 +29,9 @@ $(document).ready(function(){
     	console.log(55, that);
     }
 
-// });	
 
-//animation
+//Parallax Scrolling animation
 
-// $(document).ready(function(){
     $('section[data-type="background"]').each(function(){
         var $bgobj = $(this); // создаем объект
         $(window).scroll(function() {
