@@ -10,12 +10,12 @@
 
     <div class="row breadcrumbs">
         
-        <span class="loc main" data-link="/">Организация и сопровождение бизнеса в Турции. </span>
+        <span class="loc page" data-link="/">Главная </span>
         @if(!empty($type->name))
-            <span class="loc page" data-link="/{{$type->type}}">{{ $type->name }}. </span>
+            <span class="loc page" data-link="/{{$type->type}}"> > {{ $type->name }} </span>
         @endif
         @if(!empty($row->name))
-            <span class="loc page" data-link="/{{$row->slug}}">{{ $row->name }}. </span>
+            <span class="loc page" data-link="/{{$row->slug}}"> > {{ $row->name }} </span>
         @endif
 
     </div>
