@@ -3,7 +3,9 @@
 @section('title') «Совет Консалтинг» oрганизация и сопровождение бизнеса в турции @stop
 
 @section('header')
-    {{ HTML::style('/css/animate.css'); }}
+    <!-- {{ HTML::style('/css/animate.css'); }} -->
+    <link href="/js/story-box/animate.css" rel="stylesheet" type="text/css">
+    <link href="/js/story-box/story-box-zen.css" rel="stylesheet" type="text/css"> 
 @stop
 
 @section('content')
@@ -15,8 +17,8 @@
                     <h1>Организация и сопровождение<br> бизнеса в турции</h1>
                 </div>
                 <div class="row  block-btn">
-                    <a href="/uslugi/investicii-v-turcii" class="btn btn-head wow flipInX ">Инвестиции</a>
-                    <a href="http://sovet.com.tr" class="btn btn-head wow flipInX">Производство</a>
+                    <a href="/uslugi/investicii-v-turcii" class="btn btn-head" data-sb="fadeInLeftBig" data-sb-hide="bounceOutLeft">Инвестиции</a>
+                    <a href="http://sovet.com.tr" class="btn btn-head" data-sb="fadeInRightBig" data-sb-hide="bounceOutLeft">Производство</a>
                 </div>
             </div>
         </section>
@@ -26,7 +28,7 @@
                 <h2>Мы оказываем<br> широкий спектр услуг</h2>
                 <hr class="h2-line">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block  wow slideInLeft">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block " data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
                         <a href="/uslugi/tamoznya-v-turcii">
                         <div class="block block-hover block-1">
                             <div class="title txt-big">
@@ -42,7 +44,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6  col-xs-12 col-block wow bounceInUp" >
+                    <div class="col-md-4 col-sm-6  col-xs-12 col-block"  data-sb="bounceInUp" data-sb-hide="bounceOutLeft">
                         <a href="/uslugi/marketingovyie-issledovaniya-v-turtsii">
                         <div class="block block-hover block-2">
                             <div class="title txt-big">
@@ -58,7 +60,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6  col-xs-12 col-block   wow slideInRight">
+                    <div class="col-md-4 col-sm-6  col-xs-12 col-block" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
                         <a href="/uslugi/urist-v-turcii">
                         <div class="block block-hover block-3">
                             <div class="title txt-big">
@@ -77,7 +79,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block   wow slideInLeft">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
                         <a href="/uslugi/personal">
                         <div class="block block-hover block-4">
                             <div class="title txt-big">
@@ -95,7 +97,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block  wow bounceInUp">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">
                         <a href="/uslugi/buhgalter-v-turcii">
                         <div class="block block-hover block-5">
                             <div class="title txt-big">
@@ -112,7 +114,7 @@
                         </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 col-block wow slideInRight">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-block" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
                         <a href="/uslugi/reklama-pr">
                         <div class="block block-hover block-6">
                             <div class="title txt-big">
@@ -134,8 +136,8 @@
 
                 </div>
                 <div class="row block-btn text-center">
-                    <a href="#footer" class="btn btn-form wow fadeInUpBig" onclickno="openForm(this);">Задать вопрос</a>
-                    <a href="/uslugi" class="btn btn-links wow fadeInUpBig">Все услуги</a>
+                    <a href="#footer" class="btn btn-form" data-sb="fadeInUp" data-sb-hide="bounceOutLeft" >Задать вопрос</a>
+                    <a href="/uslugi" class="btn btn-links" data-sb="fadeInUp" data-sb-hide="bounceOutLeft">Все услуги</a>
                 </div>
             </div>
         </section>
@@ -148,7 +150,7 @@
                     <p>комфортно вести дела в Турции</p>
                 </div>
                 <div class="txt-center block-btn">
-                    <a href="#footer" class="btn btn-form  wow bounceInUp">Оставить заявку</a>
+                    <a href="#footer" class="btn btn-form" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">Оставить заявку</a>
                 </div>
             </div>
         </section>
@@ -159,7 +161,7 @@
                 <hr class="h2-line">
                 <div class="row text-center">
                     <div class="col-sm-6 col-xs-12 ">
-                        <div class="block block-hover block-right  wow slideInLeft">
+                        <div class="block block-hover block-right" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
                             <div class="title txt-big">
                                 <p class="col-xs-8">инвестировать</p>
                                 <div class="img-circle col-xs-4">
@@ -177,7 +179,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-left  wow slideInRight">
+                        <div class="block block-hover block-left" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
                             <div class="title txt-big">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-baybusinest-ico.png" >
@@ -196,7 +198,7 @@
                     </div>
 
                     <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-right  wow slideInLeft">
+                        <div class="block block-hover block-right" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
                             <div class="title txt-big">
                                 <p class="col-xs-8">развить существующий бизнес</p>
                                 <div class="img-circle col-xs-4">
@@ -214,7 +216,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="block block-hover block-left  wow slideInRight">
+                        <div class="block block-hover block-left" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
                             <div class="title txt-big">
                                 <div class="img-circle col-xs-4">
                                     <img src="/img/icon/4-expand-ico.png" >
@@ -236,7 +238,7 @@
 
                 </div>
                 <div class="row block-btn text-center">
-                    <a href="#footer" class="btn btn-form   wow bounceInUp">Заказать звонок</a>
+                    <a href="#footer" class="btn btn-form" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">Заказать звонок</a>
                     <!-- <a class="btn btn-form">Оставить заявку</a> -->
                     <!-- <a class="btn btn-links">Подробнее</a> -->
                 </div>
@@ -248,7 +250,7 @@
                 <h2>Почему выбирают нас?</h2>
                 <p class="text-center title-h2">Партнеры и заказчики доверяют нам</p>
                 <div class="row block-square">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
                         <div class="block block-hover">
                             <div class="title">
                                 <p class="txt-big">15-ЛЕТНИЙ<br> ОПЫТ РАБОТЫ</p>
@@ -260,7 +262,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInRight" data-sb-hide="bounceOutLeft"> 
                         <div class="block block-hover">
                             <div class="title">
                                 <p class="txt-big" >ПОЛНЫЙ <br>СПЕКТР УСЛУГ</p>
@@ -272,7 +274,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
                         <div class="block block-hover">
                             <div class="title">
                                 <p class="txt-big">ИНДИВИДУАЛЬНЫЙ <br>ПОДХОД</p>
@@ -284,7 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
                         <div class="block block-hover">
                             <div class="title">
                                 <p class="txt-big">ОБШИРНЫЕ <br>ДЕЛОВЫЕ СВЯЗИ<br></p>
@@ -323,10 +325,10 @@
 
         <section id="unique-offer" data-type="background" data-speed="10" class="pages dark">
             <div class="container">
-                <h2>Уникальное предложение</h2>
+                <h2  data-sb="fadeInUp" data-sb-hide="bounceOutLeft">Уникальное предложение</h2>
                 <hr class="h2-line">
                 <div class="row block-main">
-                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2"  data-sb="fadeInUp" data-sb-hide="bounceOutLeft">
                         <h3 class="text-center">«Завод под ключ»</h3>
                         <div>
                             <!--
@@ -388,7 +390,7 @@
 
                 </div>
                 <div class="row text-center block-btn">
-                    <a href="http://sovet.com.tr" class="btn btn-form  wow bounceInUp">Подробнее</a>
+                    <a href="http://sovet.com.tr" class="btn btn-form" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">Подробнее</a>
                 </div>
             </div>
         </section>
@@ -450,7 +452,10 @@
 @stop
 
 @section('scripts')
-    {{ HTML::script('/js/wow.min.js'); }}
+
+<script src="/js/story-box/story-box.min.js"></script>
+
+<!--     {{ HTML::script('/js/wow.min.js'); }}
 
     <script>
      new WOW(
@@ -463,5 +468,5 @@
     }
     ).init();
     </script>
-
+ -->
 @stop
