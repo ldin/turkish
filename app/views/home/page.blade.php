@@ -14,6 +14,9 @@
         @if(!empty($type->name))
             <span class="loc page" data-link="/{{$type->type}}"> > {{ $type->name }} </span>
         @endif
+        @if(!empty($row->parent_title))
+            <span class="loc page" data-link="/{{$row->parent_slug}}"> > {{ $row->parent_title }} </span>
+        @endif
         @if(!empty($row->name))
             <span class="loc page" data-link="/{{$row->slug}}"> > {{ $row->name }} </span>
         @endif

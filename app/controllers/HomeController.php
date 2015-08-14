@@ -32,7 +32,7 @@ class HomeController extends BaseController {
     public function getPage($type, $slug=''){
 
         $type_post = Type::where('type', $type)->first();
-        $posts_child = $galleries = $posts = $parent = array();
+        $posts_child = $galleries = $posts = $row = array();
 
 
         if(empty($type_post)){
@@ -40,9 +40,9 @@ class HomeController extends BaseController {
         }
 
         if($type_post->template=='gallery'){
-            $parent = Post::where('slug', $type)->first();
-            $type_post = Type::where('id', $parent->type_id)->first();
-            $galleries = Gallery::where('post_id', $parent->id)->get();
+            $row = Post::where('slug', $type)->first();
+            $type_post = Type::where('id', $row->type_id)->first();
+            $galleries = Gallery::where('post_id', $row->id)->get();
         }
 
         else{
@@ -53,17 +53,25 @@ class HomeController extends BaseController {
             // $posts = Post::where('type_id',$type_post->id)->where('status',1)->where('parent',0)->orderBy('created_at', 'desc')->get();
 
             if($slug!=''){
-                $parent = Post::where('slug',$slug)->first();
+                $row = Post::where('slug',$slug)->first();
+                // var_dump($row->parent!=0);
+                if($row->parent!=0){
+                    $parent = Post::where('id',$row->parent)->first();
+                    $row->parent_title=$parent->name;
+                    $row->parent_slug=$parent->slug;
+                }
+
                 // $posts_child = Post::where('type_id',$type_post->id)->where('status',1)->where('parent','=',$parent->id)->orderBy('created_at', 'desc')->get();
-                $galleries = Gallery::where('post_id', $parent->id)->get();
+                $galleries = Gallery::where('post_id', $row->id)->get();
             }
         }
 
+        // var_dump($row); die();
 
         $view = array(
             'type'=>$type_post,
             'posts'=>$posts,
-            'row' => $parent,
+            'row' => $row,
             'posts_child' => $posts_child,
             'galleries' => $galleries,
         );
