@@ -38,6 +38,7 @@
                         <a href="https://www.facebook.com/pages/Sovet-Consulting/361655757358409"><i class="social fb"></i></a>
                         <a href="https://twitter.com/SovetConsulting"><i class="social tw"></i></a>
                         <a href="https://www.linkedin.com/company/sovet-consulting"><i class="social li"></i></a>
+                        <a href="http://ok.ru/group/54957679116306"><i class="social ok"></i></a>
                     </p>
                 </div>
 
@@ -165,6 +166,17 @@
 {{ HTML::script('/js/jcarousellite-mod.js') }}
 {{ HTML::script('/js/main.js') }}
 @yield('scripts')
+
+<script type="text/javascript">(function() {
+  if (window.pluso)if (typeof window.pluso.start == "function") return;
+  if (window.ifpluso==undefined) { window.ifpluso = 1;
+    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+    var h=d[g]('body')[0];
+    h.appendChild(s);
+  }})();</script>
+<div class="pluso" data-background="#transparent" data-options="medium,square,line,vertical,counter,theme=01" data-services="vkontakte,linkedin,facebook,twitter,odnoklassniki,email"></div>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

@@ -67,6 +67,9 @@ hr.h2-line{background: url('/img/line.png') no-repeat top center; height: 10px; 
 .social.vk{background-position: -31px 0;}
 .social.tw{background-position: -126px 0;}
 .social.li{background-position: -126px -31px;}
+.social.ok{background-position: -93px 0;}
+
+.pluso{position: fixed !important; top: 25%;}
 
 /*main-page*/
 #slider img, #we-service img, #unique-offer img{max-width: 100%;}
@@ -216,6 +219,9 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 
 /*left column*/
 .left_column img{max-width: 100%;}
+
+/*block-news*/
+.block-news img{max-height: 100px; float: left;}
 
 /*404*/
 .block-404{min-height: 50vh}

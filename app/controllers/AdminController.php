@@ -45,6 +45,7 @@ class AdminController extends BaseController {
         $templates = array(
                 'gallery'=>'Галлерея',
                 'page'=>'Текст',
+                'news'=>'Новости',
         );
 
         //добавляем категорию
