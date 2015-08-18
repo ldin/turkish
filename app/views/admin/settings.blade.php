@@ -28,22 +28,22 @@
 {{ Form::close(); }}
 @endif
 
-{{-- <h2>Дополнительно</h2> --}}
+<h2>Дополнительно</h2> 
 
-{{--     <div class="tab-content">
+    <div class="tab-content">
         <div>
                 <br>
-                <div class="col-xs-4 col-md-2">
+                <div class="col-xs-6 col-md-6">
                     Обновить карту сайта sitemap.xml
                 </div>
-                <div class="col-xs-8  col-md-6">
+                <div class="col-xs-6  col-md-6">
                     <a href="/admin/create-sitemap" class="btn btn-default">Обновить</a>
                 </div>
                 <div class="clear"></div>
         </div>
 
         <br>
-    </div> --}}
+    </div> 
 
 @stop
 

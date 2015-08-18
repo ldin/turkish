@@ -319,62 +319,65 @@ public function postImageGallery($type_id, $post_id, $image_id='add')
                     ->with('success', 'Изменения сохранены');
         }
 
-        //слайдер
+        //карта сайта
 
-    public function getSlider($id='')
-        {
-            $slides_menu = Slider::get(['id', 'name']);
-            $slide = Slider::where('id', $id)->get();
+        public function getCreateSitemap(){
+            $urlroot=Config::get('app.url');
+            $types = Type::where('status', 1)->get(array('type','updated_at', 'id'));
+            $pages = Post::where('status', 1)->get(array('slug','updated_at', 'type_id'));
+            // $project = Project::get(array('slug', 'updated_at'));
 
-            $view = array(
-                'slides_menu' => $slides_menu,
-                'slides' => $slide,
-                'row' => (!empty($slide[0]))?$slide[0]:'',
-            );
-            return View::make('admin.slider', $view);
+             // var_dump($urlroot); die();
+            $xml=new DomDocument('1.0','utf-8');
+
+            $urlset = $xml->createElement('urlset');
+            $urlset -> setAttribute('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9');
+
+            foreach($types as $type){
+
+                    $url = $xml->createElement('url');
+                    $urlset->appendChild($url);
+
+                    $loc = $xml->createElement('loc');
+                    $url->appendChild($loc);
+
+                    $loc->appendChild($text = $xml->createTextNode($urlroot.'/'.$type->type));
+
+                    $lastmod = $xml->createElement('lastmod');
+                    $url->appendChild($lastmod);
+
+                    $lastmod->appendChild($xml->createTextNode($type->updated_at));
+
+                foreach($pages as $post){
+                    if($post->type_id == $type->id){
+
+                        $url = $xml->createElement('url');
+                        $urlset->appendChild($url);
+
+                        $loc = $xml->createElement('loc');
+                        $url->appendChild($loc);
+
+                        $loc->appendChild($text = $xml->createTextNode($urlroot.'/'.$type->type.'/'.$post->slug));
+
+                        $lastmod = $xml->createElement('lastmod');
+                        $url->appendChild($lastmod);
+
+                        $lastmod->appendChild($xml->createTextNode($post->updated_at));
+                    }
+                }
+            }
+
+            $xml->appendChild($urlset);
+            $xml->formatOutput = true;
+            $xml->save('sitemap.xml');
+            //$xml->saveXML();
+
+            if (!@fopen('sitemap.xml', "r")) {
+                return Redirect::back()->with('error', 'ошибка при обновлении файла sitemap.xml');
+            }
+            return Redirect::back()->with('success', 'файл sitemap.xml обновлен');
+            // return Response::download('sitemap.xml');
+
         }
-
-    public function postSlider($id='')
-        {
-            $all = Input::all();
-            $rules = array(
-                'name' => 'required|min:2|max:255',
-            );
-            $validator = Validator::make($all, $rules);
-            if ( $validator -> fails() ) {
-                return Redirect::to('/admin/slider/'.$id)
-                        ->withErrors($validator)
-                        ->withInput()
-                        ->with('error', 'Ошибка');
-            }
-            if(is_numeric($id))   {
-                  $post = Slider::find($id);
-            }
-            else {
-                $post = new Slider();
-            }
-
-            $post->name = $all['name'];
-            $post->text = $all['text'];
-            $post->button = $all['button'];
-            $post->link = $all['link'];
-            $post->status = isset($all['status'])?true:false;
-
-            if(isset($all['image'])){
-                $full_name = Input::file('image')->getClientOriginalName();
-                $filename=$full_name;
-                $path = 'upload/slider/';
-                Input::file('image')->move($path, $filename);
-                $post->image = $path.$filename;
-            }
-
-            $post->save();
-
-            return Redirect::to('/admin/slider/'.$id.'/#preview-slide')
-                    ->with('success', 'Изменения сохранены');
-
-        }
-
-
 
 }
