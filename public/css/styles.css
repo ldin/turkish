@@ -196,6 +196,9 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 
 
 /*pages*/
+.row-content a{color: #86aab7; font-weight: normal;}
+.row-content a:hover{color: #dd4f4d; text-decoration: none;}
+
 .nav-pills li a {color: #3c4047; font-size: 14px;}
 .nav-pills>li, .nav-pills>li:hover{border:1px solid #fff; margin: 0}
 .nav-stacked>li+li {margin: 0;}
