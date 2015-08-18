@@ -23,11 +23,7 @@
 
     </div>
 
-    <div class="row">
-
-    <?// var_dump($posts); ?>
-
-
+    <div class="row row-content">
 
         @if(isset($posts)&&count($posts)>0)
             <div class="col-xs-12 col-sm-3">
