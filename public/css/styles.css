@@ -170,8 +170,8 @@ header .navbar-toggle .icon-bar { background-color: #fff;}
 #partner  button{background: #fff no-repeat; border: none; height: 27px; font-size: 16px; }
 #partner  button.prev{background-image: url('/img/icon/slider-arr-prev.png'); padding-left: 35px; margin-right: 50px;}
 #partner  button.next{background-image: url('/img/icon/slider-arr-next.png'); background-position: 100%; padding-right: 35px; margin-left: 50px;}
-#partner  button.prev:hover{background-image: url(/img/icon/slider-arr-prev0.png);}
-#partner  button.next:hover{background-image: url(/img/icon/slider-arr-next0.png);}
+#partner  button.prev:hover{background-image: url(/img/icon/slider-arr-prev0.png); color: #8A8A8A;}
+#partner  button.next:hover{background-image: url(/img/icon/slider-arr-next0.png); color: #8A8A8A;}
 #partner .gallery{max-width: 100%}
 
 footer{background: #3c4047; padding: 50px 0; color: #fff;}

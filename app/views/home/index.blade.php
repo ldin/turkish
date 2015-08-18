@@ -410,8 +410,8 @@
                             </ul>
                         </div>
                         <hr>
-                        <button class="prev">prev</button>
-                        <button class="next">next</button>
+                        <button class="prev">назад</button>
+                        <button class="next">вперед</button>
                     </div>
                 </div>
 
@@ -453,20 +453,6 @@
 
 @section('scripts')
 
-<script src="/js/story-box/story-box.min.js"></script>
+    <script src="/js/story-box/story-box.min.js"></script>
 
-<!--     {{ HTML::script('/js/wow.min.js'); }}
-
-    <script>
-     new WOW(
-     {
-      boxClass:     'wow',      // default
-      animateClass: 'animated', // default
-      offset:       0,          // default
-      mobile:       true,       // default
-      live:         true        // default
-    }
-    ).init();
-    </script>
- -->
 @stop
