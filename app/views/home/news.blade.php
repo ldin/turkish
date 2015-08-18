@@ -59,13 +59,13 @@
 
         <div class="col-xs-12 col-sm-9">
 
-<!--             @if(!empty($row->text))
+            @if(!empty($row->text))
                 {{ $row->text }}
             @endif
 
             @if(empty($row))
                 {{ $type->text }}
-            @endif -->
+            @endif
             
             @if(isset($subcategory)&&count($subcategory)>0)
                 @foreach($subcategory as $post)
@@ -97,6 +97,9 @@
                     </div>
                     <hr>
                 @endforeach
+
+                {{ $subcategory->links() }}
+
             @endif
         </div>
 

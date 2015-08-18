@@ -221,7 +221,10 @@ form button.btn{width: 100%; margin: 20px 0 0 0; }
 .left_column img{max-width: 100%;}
 
 /*block-news*/
-.block-news img{max-height: 100px; float: left;}
+.block-news img{max-height: 100px; float: left; margin: 10px;}
+.pagination>li>a{color: #3c4047;}
+.pagination>.active>span:hover{background-color: #929292;}
+.pagination>.active>span{background-color: #c6cbce; color: #000; border-color: #c6cbce;}
 
 /*404*/
 .block-404{min-height: 50vh}

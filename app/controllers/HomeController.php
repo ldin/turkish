@@ -25,8 +25,7 @@ class HomeController extends BaseController {
 
     public function showWelcome()
     {
-        //$slides = Slider::where('status', 1)->get();
-        return View::make('home.index');//->with('slides',$slides);
+        return View::make('home.index');
     }
 
     public function getPage($type, $slug=''){
@@ -52,17 +51,16 @@ class HomeController extends BaseController {
 
             if($type_post->template=='news'){
                 if($slug==''){
-                    $subcategory = Post::where('type_id',$type_post->id)->where('status',1)->where('parent','!=',0)->orderBy('created_at', 'desc')->get();
+                    $subcategory = Post::where('type_id',$type_post->id)->where('status',1)->where('parent','!=',0)->orderBy('created_at', 'desc')->paginate(15);
                 }else{
                     $row = Post::where('slug', $slug)->first();            
-                    $subcategory = Post::where('type_id',$type_post->id)->where('status',1)->where('parent', $row->id)->orderBy('created_at', 'desc')->get();
+                    $subcategory = Post::where('type_id',$type_post->id)->where('status',1)->where('parent', $row->id)->orderBy('created_at', 'desc')->paginate(15);
                 }
 
                 foreach ($subcategory as $key => $post) {
                     $preview = HomeController::previewFirstSimbol($post->text, 500);
                     $post->preview = $preview['text'];
                     $post->preview_img = $preview['img'];
-                    //var_dump($preview);
                 }
             }
 
@@ -78,8 +76,6 @@ class HomeController extends BaseController {
             }
         }
 
-        // var_dump($row); die();
-
         $view = array(
             'type'=>$type_post,
             'posts'=>$posts,
@@ -91,6 +87,7 @@ class HomeController extends BaseController {
         return View::make('home.'.$type_post->template, $view);
     }
 
+    //превью новостей (первые $count символов из $data)
     public function previewFirstSimbol($data, $count){
         $first_img = $text = NULL;
         if(!empty($data)){
@@ -104,30 +101,13 @@ class HomeController extends BaseController {
                 else{
                     $first_img = null;
                 }
-                //var_dump($first_img);  
+
                 $txt = strip_tags($data); 
                 $txt = substr($txt, 0, $count);
-                $txt = substr($txt, 0, strrpos($txt, ' ' ));
-                
-                $text = $txt.'...';  
-
-                // $txt = explode('<p', $data); 
-                // var_dump($txt);
-                // if(count($txt)>1) {
-                //     $txt = $txt[1];
-                //     $txt = strip_tags($txt);  
-                //     $txt = explode('>', $txt);
-                //     $txt = $txt[1]; 
-                // }else{
-                //     $txt = $text;
-                // }                                                  
-                // $text = substr($txt, 0, $count);
-                // $text = substr($text, 0, strrpos($text, '.' ));
-                // $text = strip_tags($text);
-                // $text = $text.'...';                            
+                $txt = substr($txt, 0, strrpos($txt, ' ' ));                
+                $text = $txt.'...';                             
             }
         }
-        //var_dump($first_img);
         $preview = array(
             'text' => $text,
             'img' => $first_img
@@ -139,7 +119,6 @@ class HomeController extends BaseController {
     public function postFormRequest()
     {
             $all = Input::all();
-            // var_dump($all); die();
 
             $rules = array(
                 // 'name' => 'required|min:2|max:255',
