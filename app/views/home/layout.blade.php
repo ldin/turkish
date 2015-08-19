@@ -34,11 +34,11 @@
                     <p>E-MAIL: <span class="small"><a href="mail:info@infoturk.biz">info@infoturk.biz</a></span></p>
                     <p>Skype: <span class="small"> <b>infoturk-1</b>, <b>sovet-1</b></span></p>
                     <p class="text-right">
-                        <a href="https://vk.com/infoturkbiz"><i class="social vk"></i></a>
-                        <a href="https://www.facebook.com/pages/Sovet-Consulting/361655757358409"><i class="social fb"></i></a>
-                        <a href="https://twitter.com/SovetConsulting"><i class="social tw"></i></a>
-                        <a href="https://www.linkedin.com/company/sovet-consulting"><i class="social li"></i></a>
-                        <a href="http://ok.ru/group/54957679116306"><i class="social ok"></i></a>
+                        <a href="https://vk.com/infoturk" target="_blank"><i class="social vk"></i></a>
+                        <a href="https://www.facebook.com/pages/Sovet-Consulting/361655757358409" target="_blank"><i class="social fb"></i></a>
+                        <a href="https://twitter.com/SovetConsulting" target="_blank"><i class="social tw"></i></a>
+                        <a href="https://www.linkedin.com/company/sovet-consulting" target="_blank"><i class="social li"></i></a>
+                        <a href="http://ok.ru/group/54957679116306" target="_blank"><i class="social ok"></i></a>
                     </p>
                 </div>
 
@@ -90,24 +90,24 @@
                         <br>
                         <div class="contact text-left">
                             <p class="txt">
-                                <span class="">ГОРЯЧАЯ ЛИНИЯ:</span> 
-                                <a href="tel:+905323880314"><span itemprop="telephone">+90 532 388 03 14</span></a>
+                                <span class="left">ГОРЯЧАЯ ЛИНИЯ:</span> 
+                                <a href="tel:+905323880314" class="tel right"><span itemprop="telephone">+90 532 388 03 14</span></a>
                             </p>
                             <p class="txt">
-                                <span class="">ОФИС В АНТАЛИИ: </span>
-                                <a href="tel:+902423163651">+90 242 316 3651</a>
+                                <span class="left">ОФИС В АНТАЛИИ: </span>
+                                <a href="tel:+902423163651" class="tel right">+90 242 316 3651</a>
                             </p>
                             <p class="txt">
-                                <a href="+905414086107" class="col-xs-offset-5">+90 541 408 6107</a>
+                                <a href="+905414086107" class="tel right">+90 541 408 6107</a>
                             </p>
-                            <br>
+                            <br class="clear"><br>
                             <p class="txt">
                                 <span class="">E-MAIL: </span>
-                                <a href="mailto:info@infoturk.biz" class=""><span itemprop="email">info@infoturk.biz</a></span>
+                                <a href="mailto:info@infoturk.biz" class="tel"><span itemprop="email">info@infoturk.biz</a></span>
                             </p>
                             <p class="txt">
                                 <span class="">Skype: </span>
-                                <span class="">infoturk-1, sovet-1 </span>
+                                <span class="tel">infoturk-1, sovet-1 </span>
                             </p>
                         </div>    
                         <br><br>

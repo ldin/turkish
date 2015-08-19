@@ -27,6 +27,7 @@ body{font-size: 16px;}
 
 .left{float: left;}
 .right{float: right;}
+.clear{clear: both;}
 :focus {outline: none;}
 
 .navbar{margin: 0;}
@@ -181,6 +182,9 @@ footer .title{font-weight: bold; border-bottom: 1px solid #707070; padding-botto
 footer a, footer a:hover{color: #fff; font-weight: normal;}
 footer .txt, footer .txt a{color: #959595;}
 footer .contact .txt{margin: 0;}
+footer .tel, footer .tel:hover{font-weight: bold;}
+footer .right{display: inline-block; float: right;}
+footer .left{display: inline-block; float: left;}
 form button.btn{width: 100%; margin: 20px 0 0 0; }
 
 
