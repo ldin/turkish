@@ -346,7 +346,7 @@ public function postImageGallery($type_id, $post_id, $image_id='add')
                     $lastmod = $xml->createElement('lastmod');
                     $url->appendChild($lastmod);
 
-                    $lastmod->appendChild($xml->createTextNode($type->updated_at));
+                    $lastmod->appendChild($xml->createTextNode(date('Y-m-d', strtotime($type->updated_at))));
 
                 foreach($pages as $post){
                     if($post->type_id == $type->id){
@@ -362,7 +362,7 @@ public function postImageGallery($type_id, $post_id, $image_id='add')
                         $lastmod = $xml->createElement('lastmod');
                         $url->appendChild($lastmod);
 
-                        $lastmod->appendChild($xml->createTextNode($post->updated_at));
+                        $lastmod->appendChild($xml->createTextNode(date('Y-m-d', strtotime($post->updated_at))));
                     }
                 }
             }
