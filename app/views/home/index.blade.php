@@ -115,19 +115,16 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
-                        <a href="/uslugi/reklama-pr">
+                        <a href="/uslugi/import-export">
                         <div class="block block-hover block-6">
                             <div class="title txt-big">
-                                <p>Реклама и PR</p>
+                                <p>Импорт/экспорт</p>
                             </div>
                             <div class="description">
                                 <p>
-                                    IT сопровождение<br>
-                                    Разработка сайтов<br>
-                                    Продвижение сайтов<br>
-                                    Реклама в Интернете<br>
-                                    Разработка фирменного стиля<br>
-                                    Медиа
+                                    Расширение рынков сбыта<br>
+                                    Решение вопросов по импорту/экспорту<br>
+                                    Изучение спроса<br>
                                 </p>
                             </div>
                         </div>
