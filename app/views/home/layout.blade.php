@@ -123,9 +123,9 @@
                     <span class="txt">
                     <a href="/uslugi/tamoznya-v-turcii">Таможня</a><br>
                     <a href="/uslugi/marketingovyie-issledovaniya-v-turtsii">Маркетинг</a><br>
-                    <a href="/uslugi/urist-v-turcii">Юридические услуги</a><br>
+                    <a href="/uslugi/Yuridicheskie-uslugi">Юридические услуги</a><br>
                     <a href="/uslugi/personal">Персонал</a><br>
-                    <a href="/uslugi/buhgalter-v-turcii">Бухгалтерия</a><br>
+                    <a href="/uslugi/buhgalterija">Бухгалтерия</a><br>
                     <a href="/uslugi/reklama-pr">Реклама и PR</a></span></p>
                 </div>
                 <div class="col-sm-4 col-xs-12">

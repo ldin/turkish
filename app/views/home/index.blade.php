@@ -61,7 +61,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6  col-xs-12 col-block" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
-                        <a href="/uslugi/urist-v-turcii">
+                        <a href="/uslugi/Yuridicheskie-uslugi">
                         <div class="block block-hover block-3">
                             <div class="title txt-big">
                                 <p>Юридические услуги</p>
@@ -98,7 +98,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 col-block" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">
-                        <a href="/uslugi/buhgalter-v-turcii">
+                        <a href="/uslugi/buhgalterija">
                         <div class="block block-hover block-5">
                             <div class="title txt-big">
                                 <p>Бухгалтерия</p>
