@@ -139,6 +139,7 @@
             </div>
         </section>
 
+<!--         
         <section id="we-need-you" data-type="background" data-speed="10" class="pages dark">
             <div class="container text-center">
                 <h2>Мы нужны вам,</h2>
@@ -148,6 +149,61 @@
                 </div>
                 <div class="txt-center block-btn">
                     <a href="#footer" class="btn btn-form" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">Оставить заявку</a>
+                </div>
+            </div>
+        </section> 
+-->
+        <section id="we-why" data-type="background" data-speed="10" class="pages dark">
+            <div class="container">
+                <h2>Почему выбирают нас?</h2>
+                <p class="text-center title-h2">Партнеры и заказчики доверяют нам</p>
+                <div class="row block-square">
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
+                        <div class="block block-hover">
+                            <div class="title">
+                                <p class="txt-big">15-ЛЕТНИЙ<br> ОПЫТ РАБОТЫ</p>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Знание национальных особенностей турецкой деловой среды
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInRight" data-sb-hide="bounceOutLeft"> 
+                        <div class="block block-hover">
+                            <div class="title">
+                                <p class="txt-big" >ПОЛНЫЙ <br>СПЕКТР УСЛУГ</p>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Решение любых финансовых, юридических и деловых вопросов
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
+                        <div class="block block-hover">
+                            <div class="title">
+                                <p class="txt-big">ИНДИВИДУАЛЬНЫЙ <br>ПОДХОД</p>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Глубоко вникаем в специфику бизнеса клиента
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
+                        <div class="block block-hover">
+                            <div class="title">
+                                <p class="txt-big">ОБШИРНЫЕ <br>ДЕЛОВЫЕ СВЯЗИ<br></p>
+                            </div>
+                            <div class="description desc-smile">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -241,62 +297,7 @@
                 </div>
             </div>
         </section>
-
-        <section id="we-why" data-type="background" data-speed="10" class="pages dark">
-            <div class="container">
-                <h2>Почему выбирают нас?</h2>
-                <p class="text-center title-h2">Партнеры и заказчики доверяют нам</p>
-                <div class="row block-square">
-                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
-                        <div class="block block-hover">
-                            <div class="title">
-                                <p class="txt-big">15-ЛЕТНИЙ<br> ОПЫТ РАБОТЫ</p>
-                            </div>
-                            <div class="description">
-                                <p>
-                                    Знание национальных особенностей турецкой деловой среды
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInRight" data-sb-hide="bounceOutLeft"> 
-                        <div class="block block-hover">
-                            <div class="title">
-                                <p class="txt-big" >ПОЛНЫЙ <br>СПЕКТР УСЛУГ</p>
-                            </div>
-                            <div class="description">
-                                <p>
-                                    Решение любых финансовых, юридических и деловых вопросов
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInLeft" data-sb-hide="bounceOutLeft">
-                        <div class="block block-hover">
-                            <div class="title">
-                                <p class="txt-big">ИНДИВИДУАЛЬНЫЙ <br>ПОДХОД</p>
-                            </div>
-                            <div class="description">
-                                <p>
-                                    Глубоко вникаем в специфику бизнеса клиента
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12" data-sb="bounceInRight" data-sb-hide="bounceOutLeft">
-                        <div class="block block-hover">
-                            <div class="title">
-                                <p class="txt-big">ОБШИРНЫЕ <br>ДЕЛОВЫЕ СВЯЗИ<br></p>
-                            </div>
-                            <div class="description desc-smile">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        
+<!--     
         <section id="description">
             <div class="container">
 
@@ -319,7 +320,7 @@
 
             </div>
         </section>
-
+-->
         <section id="unique-offer" data-type="background" data-speed="50" class="pages dark">
             <div class="container">
                 <h2  data-sb="fadeInUp" data-sb-hide="bounceOutLeft">Уникальное предложение</h2>
@@ -389,6 +390,29 @@
                 <div class="row text-center block-btn">
                     <a href="http://sovet.com.tr" class="btn btn-form" data-sb="bounceInUp" data-sb-hide="bounceOutLeft">Подробнее</a>
                 </div>
+            </div>
+        </section>
+
+        <section id="description">
+            <div class="container">
+
+                <div class="row block-text">
+                    <div class="col-sm-6 col-xs-12">
+                        <p>
+                            <b>Консалтинговая компания "СОВЕТ" гарантирует</b> комплексное решение задач: от регистрации компании и разработки маркетинговой стратегии до конечной реализации вашего продукта/услуги.
+                                                    </p>
+                                                    <p>
+                            Высокое качество нашей работы обеспечивается глубокими знаниями специфики <b>каждого сегмента рынка</b>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <p>
+                            Мы обеспечиваем доступ в прибыльные сферы турецкой экономики, комфортные условия существования вашего бизнеса и гарантии юридической чистоты.
+                        </p>
+                    <p><b>Мы бережно относимся к своей репутации, поэтому можем это гарантировать.</b></p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
