@@ -18,7 +18,7 @@
                 </div>
                 <div class="row  block-btn">
                     <a href="/uslugi/investicii-v-turcii" class="btn btn-head" data-sb="fadeInLeftBig" data-sb-hide="bounceOutLeft">Инвестиции</a>
-                    <a href="http://sovet.com.tr" class="btn btn-head" data-sb="fadeInRightBig" data-sb-hide="bounceOutLeft">Производство</a>
+                    <a href="http://sovet.com.tr" class="btn btn-head" target="_blank" data-sb="fadeInRightBig" data-sb-hide="bounceOutLeft">Производство</a>
                 </div>
             </div>
         </section>
