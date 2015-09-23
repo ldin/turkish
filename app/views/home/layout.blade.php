@@ -33,13 +33,13 @@
                 <div class=" col-lg-3 col-sm-4 col-xs-12 phone text-right">
                     <p>E-MAIL: <span class="small"><a href="mail:info@infoturk.biz">info@infoturk.biz</a></span></p>
                     <p>Skype: <span class="small"> <b>infoturk-1</b>, <b>sovet-1</b></span></p>
-                    <p class="text-right">
+<!--                     <p class="text-right">
                         <a href="https://vk.com/infoturk" target="_blank"><i class="social vk"></i></a>
                         <a href="https://www.facebook.com/pages/Sovet-Consulting/361655757358409" target="_blank"><i class="social fb"></i></a>
                         <a href="https://twitter.com/SovetConsulting" target="_blank"><i class="social tw"></i></a>
                         <a href="https://www.linkedin.com/company/sovet-consulting" target="_blank"><i class="social li"></i></a>
                         <a href="http://ok.ru/group/54957679116306" target="_blank"><i class="social ok"></i></a>
-                    </p>
+                    </p> -->
                 </div>
 
             </div>
