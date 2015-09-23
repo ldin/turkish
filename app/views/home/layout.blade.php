@@ -27,8 +27,8 @@
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12 phone text-right">
                     <p class="red">горячая линия: <a href="tel:+905323880314"> +90 532 388 0314</a></p>
-                    <p>офис в анталии: <a href="tel:+902423163651"> +90 242 316 3651</a></p>
-                    <p> <a href="tel:+905414086107"> +90 541 408 6107</a></p>
+                    <p>офис в Анталии: <a href="tel:+902423163651"> +90 242 316 3651</a></p>
+                    <p>офис в Стамбуле: <a href="tel:+905414086107"> +90 541 408 6107</a></p>
                 </div>
                 <div class=" col-lg-3 col-sm-4 col-xs-12 phone text-right">
                     <p>E-MAIL: <span class="small"><a href="mail:info@infoturk.biz">info@infoturk.biz</a></span></p>
@@ -98,6 +98,7 @@
                                 <a href="tel:+902423163651" class="tel right">+90 242 316 3651</a>
                             </p>
                             <p class="txt">
+                                <span class="left">ОФИС В СТАМБУЛЕ: </span>
                                 <a href="+905414086107" class="tel right">+90 541 408 6107</a>
                             </p>
                             <br class="clear"><br>

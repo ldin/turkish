@@ -185,8 +185,8 @@ footer .contact .txt{margin: 0;}
 footer .tel, footer .tel:hover{font-weight: bold;}
 footer .right{display: inline-block; float: right;}
 footer .left{display: inline-block; float: left;}
-form button.btn{width: 100%; margin: 20px 0 0 0; }
-
+form button.btn{width: 100%; margin: 20px 0 0 0; border-color: #dd4f4d;}
+form button.btn:hover{background: #bc0900; border-color: #bc0900; color: #fff}
 
 @media (max-width: 768px) {
   header .logo{text-align: center; margin-bottom: 20px;}
