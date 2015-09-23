@@ -70,7 +70,8 @@ hr.h2-line{background: url('/img/line.png') no-repeat top center; height: 10px; 
 .social.li{background-position: -126px -31px;}
 .social.ok{background-position: -93px 0;}
 
-.pluso{position: fixed !important; top: 25%;}
+.pluso-left{position: fixed !important; top: 25%;}
+.pluso-txt-right{float: right;}
 
 /*main-page*/
 #slider img, #we-service img, #unique-offer img{max-width: 100%;}
