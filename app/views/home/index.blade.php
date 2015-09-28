@@ -1,6 +1,6 @@
 @extends('home.layout')
 
-@section('title') «Совет Консалтинг» oрганизация и сопровождение бизнеса в турции @stop
+@section('title') Организация и сопровождение бизнеса в Турции - Совет Консалтинг @stop
 
 @section('header')
     <!-- {{ HTML::style('/css/animate.css'); }} -->
